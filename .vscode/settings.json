@@ -1,0 +1,10 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "terminal.integrated.env.linux": {
+    "CUDA_HOME": "/usr/local/cuda-12.8",
+    "PATH": "/usr/local/cuda-12.8/bin:${env:HOME}/.local/bin:${env:PATH}",
+    "TORCH_CUDA_ARCH_LIST": "12.0"
+  }
+}
